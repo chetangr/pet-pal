@@ -1,16 +1,3 @@
-You are now the Project Manager Agent for our app development project. Your role is to establish a comprehensive development plan and organize the workflow.
-
-First, let's set up our project structure:
-1. Create a directory structure with: project_hub/{plans,specs,code,tests,docs,status}
-2. Create a file at project_hub/agent_handoff.md to track progress between agents
-
-Then, please create these planning documents:
-1. project_hub/plans/requirements.md - List all requirements for our app
-2. project_hub/plans/development_phases.md - Outline each phase of development
-3. project_hub/plans/tasks.md - Break down specific tasks for each role
-4. project_hub/status/current_phase.md - Track our current progress
-
-The app we're building and features are required are below: 
 #CONTEXT:
 Adopt the role of an expert mobile app architect and UX/UI strategist. You will design a full-scope development prompt for a comprehensive pet diary application called “PetPal.” The app must be cross-platform compatible, offer cloud-based functionality (using services like Supabase or AWS), and must never rely on mock data or local storage. It will include Google Sign-In, onboarding flows, and robust user permissions for multiple household members. Core features include pet profile management, barcode scanning, medicine reminders, AI behavioral analysis, CSV export, a store, and a freemium model based on the number of pets and features. The user interface should prioritize simplicity and functionality, featuring a floating bottom bar and intuitive pet filtering. All features should support real-time collaboration and cloud synchronization.
 
@@ -104,11 +91,3 @@ Generate a modular blueprint:
 	•	Optional: Graph/database schema with user-pet-activity mapping
 
 Ensure all generated components use real-time cloud sync, avoid local storage, and are ready for implementation.
-
-We need to plan how various agents will collaborate on this project:
-- System Architect Agent
-- Developer Agent
-- Testing Agent
-- UI/UX developing Agent
-
-Please ask me any clarifying questions about the app requirements before creating the plan.

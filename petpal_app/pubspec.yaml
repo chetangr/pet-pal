@@ -1,0 +1,125 @@
+name: petpal
+description: A comprehensive pet diary application with cloud synchronization
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+
+  # UI
+  cupertino_icons: ^1.0.5
+  flutter_svg: ^2.0.5
+  cached_network_image: ^3.2.3
+  shimmer: ^3.0.0
+  lottie: ^2.3.2
+  flutter_animate: ^4.1.1
+  story_view: ^0.15.0
+  image_picker: ^1.0.0
+  photo_view: ^0.14.0
+  
+  # State Management
+  flutter_riverpod: ^2.3.6
+  riverpod_annotation: ^2.1.1
+
+  # Backend & API
+  supabase_flutter: ^1.10.6
+  dio: ^5.1.2
+  
+  # Authentication
+  google_sign_in: ^6.1.2
+  sign_in_with_apple: ^5.0.0
+  
+  # Local Storage
+  shared_preferences: ^2.1.1
+  isar: ^3.1.0
+  isar_flutter_libs: ^3.1.0
+  path_provider: ^2.0.15
+  
+  # Utilities
+  intl: ^0.18.0
+  flutter_local_notifications: ^14.1.0
+  permission_handler: ^10.2.0
+  url_launcher: ^6.1.11
+  share_plus: ^7.0.2
+  connectivity_plus: ^4.0.1
+  package_info_plus: ^4.0.2
+  device_info_plus: ^9.0.2
+  flutter_native_timezone: ^2.0.0
+  uuid: ^3.0.7
+  
+  # Barcode & QR
+  mobile_scanner: ^3.2.0
+  qr_flutter: ^4.1.0
+  
+  # Maps & Location
+  geolocator: ^9.0.2
+  google_maps_flutter: ^2.3.0
+  
+  # Calendar
+  table_calendar: ^3.0.9
+  
+  # Analytics
+  ml_kit_image_labeler: ^0.7.0
+  tflite_flutter: ^0.10.1
+  
+  # Charts
+  fl_chart: ^0.63.0
+  
+  # In-App Purchases
+  in_app_purchase: ^3.1.7
+  
+  # Bluetooth for wearables
+  flutter_blue_plus: ^1.5.2
+  
+  # CSV Export
+  csv: ^5.0.2
+  
+  # Push Notifications
+  firebase_core: ^2.13.1
+  firebase_messaging: ^14.6.2
+  cloud_firestore: ^4.8.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.1
+  build_runner: ^2.4.4
+  custom_lint: ^0.4.0
+  riverpod_generator: ^2.2.3
+  riverpod_lint: ^1.3.2
+  isar_generator: ^3.1.0
+  flutter_launcher_icons: ^0.13.1
+  flutter_native_splash: ^2.3.0
+
+flutter:
+  uses-material-design: true
+  
+  assets:
+    - assets/images/
+    - assets/icons/
+    - assets/animations/
+    - assets/ml/
+  
+  fonts:
+    - family: Montserrat
+      fonts:
+        - asset: assets/fonts/Montserrat-Regular.ttf
+        - asset: assets/fonts/Montserrat-Medium.ttf
+          weight: 500
+        - asset: assets/fonts/Montserrat-SemiBold.ttf
+          weight: 600
+        - asset: assets/fonts/Montserrat-Bold.ttf
+          weight: 700
+    - family: Inter
+      fonts:
+        - asset: assets/fonts/Inter-Regular.ttf
+        - asset: assets/fonts/Inter-Medium.ttf
+          weight: 500
+        - asset: assets/fonts/Inter-SemiBold.ttf
+          weight: 600
